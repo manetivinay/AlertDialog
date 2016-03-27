@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string name="signin">sign in</string>
+    <string name="cancel">cancel</string>
+</resources>

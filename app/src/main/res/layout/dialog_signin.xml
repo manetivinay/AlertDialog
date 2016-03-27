@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFBB33"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Hello maneti"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi hic culpa, velit molestiae! Facilis libero veniam rerum asperiores necessitatibus."/>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+
+        <Button
+            android:id="@+id/firstRightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/firstLeftButton"
+            android:layout_toRightOf="@+id/view"
+            android:text="Second"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/firstLeftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/view"
+            android:text="First"/>
+
+
+        <Button
+            android:id="@+id/secondRightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/firstRightButton"
+            android:layout_toRightOf="@+id/view"
+            android:text="Fourth"/>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/secondLeftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/firstLeftButton"
+            android:layout_toLeftOf="@+id/view"
+            android:text="Third"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/thirdButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondRightButton"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="fifth"/>
+
+        <Button
+            android:id="@+id/dialogButtonOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thirdButton"
+            android:background="#FFFFBB33"
+            android:gravity="center"
+            android:text="Hello maneti"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="black">#030303</color>
+    <color name="black_tr8">#88030303</color>
+    <color name="app_black">#263238</color>
+    <color name="white">#ffffff</color>
+    <color name="white_tr8">#88ffffff</color>
+    <color name="grey">#8C8C8C</color>
+    <color name="grey_light">#c0c0c0</color>
+    <color name="light_grey">#eeeeee</color>
+
+    <color name="blue">#018fe5</color>
+    <color name="red">#FF0044</color>
+    <color name="red_dark">#BD1942</color>
+    <color name="red_tr8">#88FF0044</color>
+    <color name="green">#00D873</color>
+    <color name="green_dark">#00BB3A</color>
+    <color name="yellow">#F1C40F</color>
+    <color name="yellow_dark">#B3A500</color>
+    <color name="blue_dark">#0180ce</color>
+    <color name="primary_light">#018fe5</color>
+    <color name="primary_dark">#0180ce</color>
+</resources>
